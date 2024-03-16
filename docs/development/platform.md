@@ -45,7 +45,7 @@ A development compose file is available in `~/opencti/opencti-platform/opencti-d
 ```bash
 cd ~/docker
 #Start the stack in background
-docker-compose -f ./docker-compose-dev.yml up -d
+docker compose -f ./docker-compose-dev.yml up -d
 ```
 
 You have now all the dependencies of OpenCTI running and waiting for product to run.

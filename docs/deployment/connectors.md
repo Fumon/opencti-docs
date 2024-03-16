@@ -151,7 +151,7 @@ $ cd connectors-{RELEASE_VERSION}/misp/
 Change the configuration in the `docker-compose.yml` according to the parameters of the platform and of the targeted service. Then launch the connector:
 
 ```
-$ docker-compose up
+$ docker compose up
 ```
 
 ## Manual activation
